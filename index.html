@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <div>Rock Paper Scissors</div>
+    <div>
+        <div class="main-box">
+            <div class="title">Rock Paper Scissor</div>
+            <div class="scores">
+                <div class="human">HOOMAN: <span id="hScore"></span></div>
+                <div class="computer">AI: <span></span></div>
+            </div>
+            <div class="result"></div>
+            <div class="buttons">
+                <button type="button" id="rock" class="rps">ROCK</button>
+                <button type="button" id="paper" class="rps">PAPER</button>
+                <button type="button" id="scissor" class="rps">SCISSOR</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
